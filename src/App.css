@@ -1,0 +1,68 @@
+p {
+  font-family: "EB Garamond", serif;
+  font-family: "Silkscreen", cursive;
+  /* font-family: "Roboto"; */
+  color: rgb(59, 243, 13);
+}
+a {
+  color: rgb(59, 243, 13);
+}
+h2 {
+  font-family: "EB Garamond", serif;
+  font-family: "Silkscreen", cursive;
+  /* font-family: "Roboto", serif; */
+  color: rgb(59, 243, 13);
+}
+
+.App {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  /* display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  color: #000;
+  flex-direction: column; */
+  display: flex;
+  width: 500px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 17px 5px rgba(2, 253, 2, 0.54);
+  color: rgb(59, 243, 13);
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  font-family: "EB Garamond", serif;
+  font-family: "Silkscreen", cursive;
+}
+
+.group-button {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem auto;
+}
+.app-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}

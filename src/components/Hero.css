@@ -1,0 +1,37 @@
+img {
+  width: 200px;
+}
+
+.hero {
+  display: flex;
+  height: 260px;
+  width: 500px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: 1rem auto;
+  -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 17px 5px rgba(2, 253, 2, 0.54);
+  color: #000;
+}
+.hero img {
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.card_habilities {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 17px 5px rgba(2, 253, 2, 0.54);
+  color: #000;
+  flex-direction: column;
+  text-align: center;
+}
+

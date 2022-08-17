@@ -1,0 +1,19 @@
+.education {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 5px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 17px 5px rgba(2, 253, 2, 0.54);
+  color: #000;
+  flex-direction: column;
+}
+
+.card_education {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
